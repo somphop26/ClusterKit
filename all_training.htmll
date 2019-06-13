@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>All Training</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+    <a class="my-0 mr-md-auto font-weight-normal col-2" href="#">
+      <img src="clusterkit_logo.png" width="150" height="75" class="d-inline-block align-top" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Solutions
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <span><b>Computer Cluster</b></span>
+            <a class="dropdown-item" href="#">Computing (HPC) Cluster</a>
+            <a class="dropdown-item" href="#">Web Cluster / Web Farm</a>
+            <a class="dropdown-item" href="#">Cluster File System</a>
+            <a class="dropdown-item" href="#">Software-Defined Storage with Ceph</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <span><b>System Integration</b></span>
+            <a class="dropdown-item" href="#">System Architecture Design</a>
+            <a class="dropdown-item" href="#">Software installtion & Maintenance</a>
+            <div class="dropdown-divider"></div>
+            <span><b>Product</b></span>
+            <a class="dropdown-item" href="#">Infiniband Products</a>
+            <div class="dropdown-divider"></div>
+            <span><b>Other</b></span>
+            <a class="dropdown-item" href="#">Seminar & Workshop Coordinating</a>
+            <div class="dropdown-divider"></div>
+            <span><b>Training</b></span>
+            <a class="dropdown-item" href="#">Training Room</a>
+            <a class="dropdown-item" href="#">Our Customers</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Training
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <span><b>Course</b></span>
+
+            <a class="dropdown-item" href="#">All Training</a>
+            <a class="dropdown-item" href="#">Computer Cluster & Big Data >></a>
+            <a class="dropdown-item" href="#">Linux >></a>
+            <a class="dropdown-item" href="#">Database & Programing >></a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Instructor</a>
+            <a class="dropdown-item" href="#">Training Room</a>
+            <a class="dropdown-item" href="#">Inhouse Training</a>
+            <a class="dropdown-item" href="#">News & Activity</a>
+            <a class="dropdown-item" href="#">Certificate Verify</a>
+            <a class="dropdown-item" href="#">All Courses</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Success Story
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <span><b>HPC Cluster</b></span>
+            <a class="dropdown-item" href="#">HAII Cluster@HAII</a>
+            <a class="dropdown-item" href="#">Eclipse Cluster@ThaiGrid</a>
+            <a class="dropdown-item" href="#">TERA Cluster@ThaiGrid</a>
+            <a class="dropdown-item" href="#">Sila Cluster$RU</a>
+            <div class="dropdown-divider"></div>
+            <span><b>Web Cluster</b></span>
+            <a class="dropdown-item" href="#">DigitalThailand@GISTDA</a>
+            <a class="dropdown-item" href="#">irginRadioThailand.com</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Knowledge Base
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <span><b>News</b></span>
+            <a class="dropdown-item" href="#">Cluster Kit Newsletter</a>
+            <a class="dropdown-item" href="#">Cluster Kit Seminar Slides</a>
+            <a class="dropdown-item" href="#">Cluster Kit Tutorial</a>
+            <div class="dropdown-divider"></div>
+            <span><b>Tools</b></span>
+            <a class="dropdown-item" href="#">HPL.dat File Generate</a>
+          </div>
+        </li>
+        
+
+
+        <li class="nav-item dropdown form-inline my-2 my-md-0 ">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+            <a class="dropdown-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Action >>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">1.................</a>
+              <a class="dropdown-item" href="#">2.................</a>
+              <a class="dropdown-item" href="#">3.................</a>
+            </div>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+
+  <br>
+  <form class="container">
+    <h2>All Course Training</h2>
+    <h4> Computer Cluster & Big Data</h4>
+    <ul>
+      <li><a href='subject.html'> Linux Web Clustering</a> </li>
+      <li><a href='#'> Advanced Proxmox Cluster Management</a> </li>
+      <li><a href='#'> Hadoop Bootcamp</a> </li>
+      <li><a href='#'> Ceph Storage Administration</a> </li>
+      <li><a href='#'> OpenStack Administration</a> </li>
+      <li><a href='#'> MySQL Cluster</a> </li>
+      <li><a href='#'> Lustre File System</a> </li>
+      <li><a href='#'> Rocks Cluster Administration</a> </li>
+    </ul>
+    <h4>Linux</h4>
+    <ul>
+      <li><a href='#'> Edubuntu</a> </li>
+      <li><a href='#'> Linux Administration</a> </li>
+      <li><a href='#'> Ubuntu Desktop</a> </li>
+    </ul>
+    <h4>Database &amp; Programming</h4>
+    <ul>
+      <li><a href='#'> PostgreSQL Administration</a> </li>
+      <li><a href='#'> MySQL Basic</a> </li>
+      <li><a href='#'> MySQL Administration </a> </li>
+    </ul>
+    <br>
+    <hr>
+    <h4>รายละเอียดหลักสูตรและค่าอบรม</h4> 
+    <ol>
+    <li>ราคาอบรมรวมภาษีมูลค่าเพิ่มแล้ว</li>
+    <li>ราคารวมเอกสาร อาหารว่าง และอาหารกลางวันแล้ว</li>
+    </ol>
+     <p>สอบถามข้อมูลเพิ่มเติมติดต่อ คลัสเตอร์คิท เทรนนิ่ง เซ็นเตอร์ : 0 2881 3800 </p>  
+  </form>
+
+
+
+
+
+
+
+
+
+
+  <footer class="pt-4 my-md-5 pt-md-5 border-top container">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img class="mb-2" src="clusterkit_logo.png" alt="" width="80" height="40">
+          <small class="d-block mb-3 text-muted">Copyright	© 2007 - 2019 Cluster Kit Co.,Ltd. All rights reserved.</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Contact</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Facebook</a></li>
+            <li><a class="text-muted" href="#">E-mail : info@clusterkit.co.th</a></li>
+            <li><a class="text-muted" href="#">Tel. 02-881-3800</a></li>
+            <li><a class="text-muted" href="#">Fax. 02-424-7603</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Careers</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">System Engineer</a></li>
+            <li><a class="text-muted" href="#">Accountant Oficer</a></li>
+            <li><a class="text-muted" href="#">Internship Program</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Corporate Identity</a></li>
+            <li><a class="text-muted" href="#">About ClusterKit</a></li>
+            <li><a class="text-muted" href="#">Map</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>All Training</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+    <a class="my-0 mr-md-auto font-weight-normal col-2" href="#">
+      <img src="clusterkit_logo.png" width="150" height="75" class="d-inline-block align-top" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Solutions
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <span><b>Computer Cluster</b></span>
+            <a class="dropdown-item" href="#">Computing (HPC) Cluster</a>
+            <a class="dropdown-item" href="#">Web Cluster / Web Farm</a>
+            <a class="dropdown-item" href="#">Cluster File System</a>
+            <a class="dropdown-item" href="#">Software-Defined Storage with Ceph</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <span><b>System Integration</b></span>
+            <a class="dropdown-item" href="#">System Architecture Design</a>
+            <a class="dropdown-item" href="#">Software installtion & Maintenance</a>
+            <div class="dropdown-divider"></div>
+            <span><b>Product</b></span>
+            <a class="dropdown-item" href="#">Infiniband Products</a>
+            <div class="dropdown-divider"></div>
+            <span><b>Other</b></span>
+            <a class="dropdown-item" href="#">Seminar & Workshop Coordinating</a>
+            <div class="dropdown-divider"></div>
+            <span><b>Training</b></span>
+            <a class="dropdown-item" href="#">Training Room</a>
+            <a class="dropdown-item" href="#">Our Customers</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Training
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <span><b>Course</b></span>
+
+            <a class="dropdown-item" href="all_training.html">All Training</a>
+            <a class="dropdown-item" href="#">Computer Cluster & Big Data >></a>
+            <a class="dropdown-item" href="#">Linux >></a>
+            <a class="dropdown-item" href="#">Database & Programing >></a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Instructor</a>
+            <a class="dropdown-item" href="#">Training Room</a>
+            <a class="dropdown-item" href="#">Inhouse Training</a>
+            <a class="dropdown-item" href="#">News & Activity</a>
+            <a class="dropdown-item" href="#">Certificate Verify</a>
+            <a class="dropdown-item" href="#">All Courses</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Success Story
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <span><b>HPC Cluster</b></span>
+            <a class="dropdown-item" href="#">HAII Cluster@HAII</a>
+            <a class="dropdown-item" href="#">Eclipse Cluster@ThaiGrid</a>
+            <a class="dropdown-item" href="#">TERA Cluster@ThaiGrid</a>
+            <a class="dropdown-item" href="#">Sila Cluster$RU</a>
+            <div class="dropdown-divider"></div>
+            <span><b>Web Cluster</b></span>
+            <a class="dropdown-item" href="#">DigitalThailand@GISTDA</a>
+            <a class="dropdown-item" href="#">irginRadioThailand.com</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Knowledge Base
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <span><b>News</b></span>
+            <a class="dropdown-item" href="#">Cluster Kit Newsletter</a>
+            <a class="dropdown-item" href="#">Cluster Kit Seminar Slides</a>
+            <a class="dropdown-item" href="#">Cluster Kit Tutorial</a>
+            <div class="dropdown-divider"></div>
+            <span><b>Tools</b></span>
+            <a class="dropdown-item" href="#">HPL.dat File Generate</a>
+          </div>
+        </li>
+       
+
+        <li class="nav-item dropdown form-inline my-2 my-md-0 ">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+            <a class="dropdown-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Action >>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">1.................</a>
+              <a class="dropdown-item" href="#">2.................</a>
+              <a class="dropdown-item" href="#">3.................</a>
+            </div>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+
+  <br>
+  <form class="container">
+      <h4>หลักสูตร : Linux Web Clustering</h4>
+      <h6>ระยะเวลา : 18 ชั่วโมง ( 3วัน )</h6>
+      <h6>ราคา : 10,700 บาท (อัตรานี้รวมภาษีมูลค่าเพิ่มแล้ว)</h6>
+      <h6>ตารางเวลาอบรม: <a href='#'>หลักสูตร Linux Web Clustering</a></h6>
+      <ul>
+        <li>เรียนวันที่ (05/06/2019, 06/06/2019, 07/06/2019) <a href="register.html"><font color="blue">ลงทะเบียน</font></a></li>
+        <li>เรียนวันที่ (05/06/2019, 06/06/2019, 07/06/2019) <a href="#"><font color="blue">ลงทะเบียน</font></a></li>
+        </ul>
+      <h6>รายละเอียดหลักสูตรเป็นไฟล์ PDF  : <a href='#'><img src='#' border=0 alt="ดาวน์โหลดเป็น pdf file"></a> </h6>
+
+
+      <br />
+<p>&nbsp;<style type="text/css">
+		@page { margin: 0.79in }
+		h1 { margin-top: 0in; margin-bottom: 0in; direction: ltr; color: #000000; orphans: 2; widows: 2 }
+		h1.western { font-family: "Angsana New", serif; font-size: 16pt; so-language: en-US; font-weight: normal }
+		h1.cjk { font-family: "Cordia New", sans-serif; font-size: 16pt; font-weight: normal }
+		h1.ctl { font-family: "Angsana New", serif; font-size: 16pt; so-language: th-TH; font-weight: normal }
+		p { margin-bottom: 0.08in; direction: ltr; color: #000000; orphans: 2; widows: 2 }
+		p.western { font-family: "Cordia New", sans-serif; font-size: 14pt; so-language: en-US }
+		p.cjk { font-family: "Cordia New", sans-serif; font-size: 14pt }
+		p.ctl { font-family: "Cordia New", sans-serif; font-size: 14pt; so-language: th-TH }
+		a:link { color: #0000ff }
+		a.ctl:link { so-language: th-TH }
+	</style></p>
+<h1 class="ctl"><font face="TH Sarabun New"><font style="font-size: 18pt" size="5"><span lang="th-TH"><b><span style="font-variant: normal"><span style="text-decoration: none"><span style="letter-spacing: normal"><span style="background: transparent"><span style="font-style: normal">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;หลักสูตร </span></span></span></span></span></b></span></font></font><font face="TH Sarabun New"><font style="font-size: 18pt" size="5"><span lang="en-US"><b><span style="font-variant: normal"><span style="text-decoration: none"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="background: transparent">Linux Web </span></span></span></span></span><span style="font-variant: normal"><span style="text-decoration: none"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="background: transparent">Cluster</span></span></span></span></span></b></span></font></font><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4"><br />
+</font></font></span><span lang="th-TH"><strong><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">รายละเอียดของหลักสูตร </font></font></strong></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4"><br />
+</font></font></span><span lang="th-TH"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">&nbsp; &nbsp; &nbsp; &nbsp;หลักสูตรนี้ กล่าวถึงหลักการทำงานของระบบเว็บคลัสเตอร์ ที่ใช้ในงานให้บริการเว็บไซต์สำหรับเว็บขนาดใหญ่เพื่อรองรับผู้ใช้งานจำนวนมาก เป็นหลักสูตรที่เน้นการปฎิบัติใช้งานจริง โดยเนื้อหาครอบคลุมตั้งแต่กระบวนการออกแบบ การติดตั้ง การสร้างระบบคงอยู่สูง </font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">(High Availability -HA) </font></font></span><span lang="th-TH"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">ทฤษฎีกระจายภาระงาน </font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">(Load balancing) </font></font></span><span lang="th-TH"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">ด้วย </font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">Linux Virtual Server (LVS) </font></font></span><span lang="th-TH"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">และ </font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">HAProxy </font></font></span><span lang="th-TH"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">การใช้ </font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">memcache </font></font></span><span lang="th-TH"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">ในการจัดการ </font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">session </font></font></span><span lang="th-TH"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">ข้ามเครื่อง การติดตั้งระบบไฟล์แบบกระจาย </font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">GlustreFS </font></font></span><span lang="th-TH"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">เพื่อให้ปรับปรุงไฟล์ทีเดียวแล้วกระจายสำเนาไปยังเว็บเซิร์ฟเวอร์ทุกเครื่อง </font></font><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">การปรับแต่งความปลอดภัยของระบบ และมีการปรับพื้นฐานทฤษฎีระบบเครือข่ายในส่วนที่เกี่ยวข้องกับเว็บคลัสเตอร์ เช่น </font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">Mac Address, ARP Protocol, Public </font></font></span><span lang="th-TH"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">และ </font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">Private Network </font></font></span><span lang="th-TH"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">เป็นต้น<br />
+</font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">
+</font></font></span><span lang="th-TH"><strong><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">หลักสูตรนี้เหมาะสำหรับ </font></font></strong></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4"><br />
+</font></font></span></h1>
+<h1 class="ctl"><span lang="th-TH">&nbsp; &nbsp; &nbsp; &nbsp;<font face="TH Sarabun New"><font style="font-size: 16pt" size="4">ผู้ดูแลระบบเว็บ องค์กรที่ให้บริการเว็บ และผู้ที่สนใจ 
+</font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">
+</font></font></span><span lang="th-TH"><strong><font face="TH Sarabun New"><font style="font-size: 16pt" size="4"><br>
+  วัตถุประสงค์ </font></font></strong></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4"><br />
+</font></font></span></h1>
+<h1 class="ctl"><span lang="en-US">&nbsp; &nbsp; &nbsp; &nbsp;<font face="TH Sarabun New"><font style="font-size: 16pt" size="4">1. </font></font></span><span lang="th-TH"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">เพื่อให้ผู้เข้าอบรมมีความรู้ความเข้าใจในหลักการออกแบบเว็บคลัสเตอร์</font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4"><br />
+</font></font></span></h1>
+<h1 class="ctl"><span lang="en-US">&nbsp; &nbsp; &nbsp; &nbsp;<font face="TH Sarabun New"><font style="font-size: 16pt" size="4">2. </font></font></span><span lang="th-TH"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">เพื่อให้ผู้เข้าอบรมทราบถึงความแตกต่างของวิธีการกระจายภาระงานในแบบต่าง ๆ</font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4"><br />
+</font></font></span></h1>
+<h1 class="ctl"><span lang="en-US">&nbsp; &nbsp; &nbsp; &nbsp;<font face="TH Sarabun New"><font style="font-size: 16pt" size="4">3. </font></font></span><span lang="th-TH"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">เพื่อให้ผู้เข้าอบรมสามารถนำไปประยุกต์ใช้งานได้จริง</font></font></span><br />
+<span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">
+</font></font></span><span lang="th-TH"><strong><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">ความรู้พื้นฐาน </font></font></strong></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">
+</font></font></span></h1>
+<h1 class="ctl"><span lang="th-TH">&nbsp; &nbsp; &nbsp; &nbsp;<font face="TH Sarabun New"><font style="font-size: 16pt" size="4">ผู้เข้าอบรมต้องมีความรู้ความสามารถในการติดตั้ง </font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">Linux Server </font></font></span><span lang="th-TH"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">หรือผ่านหลักสูตร </font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">Linux Ad</font></font><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">min</font></font><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">istration </font></font></span><span lang="th-TH"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">มาก่อน และควรมีความเข้าใจเรื่องระบบเครือข่ายพื้นฐาน</font></font></span>
+<span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">
+</font></font></span><span lang="th-TH"><strong><font face="TH Sarabun New"><font style="font-size: 16pt" size="4"><br>รูปแบบการสอน </font></font></strong></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4"></font>
+</font></font></span></h1>
+<h1 class="ctl"><span lang="th-TH">&nbsp; &nbsp; &nbsp; &nbsp;<font face="TH Sarabun New"><font style="font-size: 16pt" size="4">บรรยายและปฏิบัติการ โดยใช้ระบบคอมพิวเตอร์แบบเสมือน </font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">(Virtual Machine) </font></font></span><span lang="th-TH"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">เพื่อต่อเป็นระบบคลัสเตอร์</font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">
+</font></font></span><span lang="en-US"><strong><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">
+</font></font></strong></span><strong><span lang="th-TH"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4"><br>ซอฟต์แวร์ที่ใช้สอน </font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">:</font></font></span></strong><font face="TH Sarabun New"><font style="font-size: 16pt" size="4"><br />
+</font></font></h1>
+<h1 class="ctl">&nbsp; &nbsp; &nbsp; &nbsp;<font face="TH Sarabun New"><font style="font-size: 16pt" size="4">1. </font></font><span lang="th-TH"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">ระบบปฏิบัตการลีนุกซ์</font></font><font face="TH Sarabun New"><font style="font-size: 16pt" size="4"> </font></font></span><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">CentOS-</font></font><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">7 </font></font></span></h1>
+<h1 class="ctl"><span lang="en-US"><font face="TH Sarabun New"><font style="font-size: 16pt" size="4">
+</font></font></span> 	 	 	<style type="text/css">
+		@page { margin: 0.79in }
+		p { margin-bottom: 0in; direction: ltr; color: #000000; orphans: 2; widows: 2; page-break-before: auto }
+		p.western { font-family: "Cordia New", sans-serif; font-size: 14pt; so-language: en-US }
+		p.cjk { font-family: "Cordia New", sans-serif; font-size: 14pt }
+		p.ctl { font-family: "Cordia New", sans-serif; font-size: 14pt; so-language: th-TH }
+		a:link { color: #0000ff }
+		a.ctl:link { so-language: th-TH }
+	</style>
+<p class="ctl"><span lang="th-TH"><strong><font face="TH Sarabun New"><font size="4" style="font-size: 16pt">เนื้อหาหลักสูตร </font></font></strong></span><strong><span lang="en-US"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt">:
+</font></font></span><span lang="th-TH"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt">วันที่ </font></font></span><span lang="en-US"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt">1</font></font></span></strong><font face="TH Sarabun New"><font size="4" style="font-size: 16pt">
+</font></font><span lang="th-TH"><strong><font face="TH Sarabun New"><font size="4" style="font-size: 16pt">เช้า</font></font></strong></span></p>
+<ul>
+    <li>
+    <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">รู้จักกับระบบเว็บคลัสเตอร์ 	</span></font></font></p>
+    <ul>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">เว็บคลัสเตอร์คืออะไร 		</span></font></font></p>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">รูปแบบการกระจายภาระงานของเว็บ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">(Web 		Load Balancing) </span></font></font></p>
+        <ul>
+            <li>
+            <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">DNS 			Round Robin </span></font></font></p>
+            </li>
+            <li>
+            <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Scale 			out </span></font></font></p>
+            </li>
+            <li>
+            <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Hardware 			Load Balancing </span></font></font></p>
+            </li>
+            <li>
+            <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Software 			Load Balancing </span></font></font></p>
+            </li>
+        </ul>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">สถาปัตยกรรมและหลักการออกแบบเว็บคลัสเตอร์ 		</span></font></font></p>
+        </li>
+    </ul>
+    </li>
+    <li>
+    <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ขั้นตอนการติดตั้งระบบปฏิบัติการ 	</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Linux 	</span></font></font></p>
+    <ul>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Workshop 		1 : </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ประกอบคลัสเตอร์และติดตั้งระบบปฏิบัติการ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Linux 		</span></font></font></p>
+        </li>
+    </ul>
+    </li>
+    <li>
+    <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การตั้งค่า 	</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">SSH 	</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ให้ทำงานแบบ 	</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Single 	Sign On with Public key Infrastructure (PKI) </span></font></font></p>
+    <ul>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Workshop 		2: 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ปรับแต่งการเชื่อมต่อภายในระบบคลัสเตอร์และทบทวนคำสั่งที่เกี่ยวข้อง 		</span></font></font></p>
+        </li>
+    </ul>
+    </li>
+    <li>
+    <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ทบทวนความรู้ทฤษฎีระบบเครือข่ายในส่วนที่เกี่ยวข้องกับระบบเว็บคลัสเตอร์ 	</span></font></font></p>
+    <ul>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">MAC 		Address </span></font></font></p>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">ARP 		Protocol </span></font></font></p>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Public 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">และ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Private 		Network </span></font></font></p>
+        </li>
+    </ul>
+    </li>
+</ul>
+<ul>
+    <li>
+    <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ทบทวนเรื่อง 	</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Web 	Server </span></font></font></p>
+    <ul>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การทำงานของ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Web 		Server </span></font></font></p>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">configuration 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ที่สำคัญของ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Web 		Server</span></font></font></p>
+        </li>
+    </ul>
+    </li>
+    <li>
+    <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การกระจายภาระงานด้วย 	</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Linux 	Virtual Server (LVS) </span></font></font></p>
+    <ul>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">รู้จักกับ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Linux 		Virtual Server </span></font></font></p>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">รู้จักกับ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">LVS 		Scheduling Algorithm </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ประเภทต่าง 		ๆ </span></font></font></p>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ทฤษฎีการกระจายภาระงาน 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">(Load 		Balancing) </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">เบื้องต้น 		</span></font></font></p>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การปรับแต่งเว็บคลัสเตอร์แบบ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">NAT</span></font></font></p>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การปรับแต่งเว็บคลัสเตอร์แบบ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Direct 		Route </span></font></font></p>
+        <ul>
+            <li>
+            <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">หลักการของ 			</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Virtual 			IP </span></font></font></p>
+            </li>
+            <li>
+            <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">MAC 			Spoofing - </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การติดตั้งและใช้งาน 			</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">arptable_jf 			</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">เพื่อจัดการกับปัญหา 			</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">MAC 			Address </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ในการทำงานของระบบเว็บคลัสเตอร์ 			</span></font></font></p>
+            </li>
+        </ul>
+        </li>
+    </ul>
+    </li>
+    <li>
+    <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Piranha 	configuration tool </span></font></font></p>
+    <ul>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Workshop 		3 : </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">สร้างเว็บคลัสเตอร์แบบ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">NAT 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ด้วย 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Piranha 		GUI </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">พร้อมทดสอบวิธีการกระจายแบบต่าง 		ๆ </span></font></font></p>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Workshop 		4 : </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">สร้างเว็บคลัสเตอร์แบบ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Direct 		Route </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ด้วย 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Piranha 		GUI </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">พร้อมทดสอบวิธีการกระจายแบบต่าง 		ๆ </span></font></font></p>
+        </li>
+    </ul>
+    </li>
+</ul>
+<p class="ctl"><span lang="th-TH"><strong><font face="TH Sarabun New"><font size="4" style="font-size: 16pt">วันที่ </font></font></strong></span><strong><span lang="en-US"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt">2</font></font></span></strong><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"></font></font><span lang="th-TH"><strong><font face="TH Sarabun New"><font size="4" style="font-size: 16pt">เช้า</font></font></strong></span></p>
+<ul>
+    <li>
+    <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การกระจายภาระงานด้วยซอฟต์แวร์ 	</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">HAProxy 	</span></font></font></p>
+    <ul>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Workshop 		5 : </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การติดตั้งใช้งาน 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">HAProxy</span></font></font></p>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">เปรียบเทียบการทำงานระหว่า 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">HAProxy 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">และ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">LVS</span></font></font></p>
+        </li>
+    </ul>
+    </li>
+    <li>
+    <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การทำระบบภาวะทนต่อความผิดพร่องสูง 	</span></font></font></p>
+    <ul>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">หลักการทำงานแบบ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">High 		Availability (HA) </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ของ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Load 		Balancer </span></font></font></p>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การสร้างระบบ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">High 		Availability </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">สำหรับระบบ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Web 		Cluster </span></font></font></p>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Workshop 		6 : </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">สร้างระบบ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">High 		Availability </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">สำหรับระบบเว็บคลัสเตอร์ 		พร้อมทดสอบการทำงาน </span></font></font></p>
+        </li>
+    </ul>
+    </li>
+</ul>
+<p class="ctl"><span lang="th-TH"><strong><font face="TH Sarabun New"><font size="4" style="font-size: 16pt">บ่าย</font></font></strong></span></p>
+<ul>
+    <li>
+    <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">วิธีการจัดการไฟล์เว็บในรูปแบบต่าง 	ๆ  เพื่อความสะดวกในการ</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Update 	</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ข้อมูลที่เดียว</span></font></font></p>
+    <ul>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ความแตกต่างระหว่าง 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Share 		Disk </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">และ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Share 		Storage </span></font></font></p>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Network 		File System (NFS), ISCSI, GlusterFS  (60 min) </span></font></font></p>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">ISCSI</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">รูปแบบใช้ 		เพื่อให้ทุกเครื่องเห็นที่เดียวกัน 		</span></font></font></p>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Workshop 		7 : </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การสร้าง 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Share 		Directory </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">บน 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">NFS 		 </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">และการทำ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Auto 		mount </span></font></font></p>
+        </li>
+    </ul>
+    </li>
+    <li>
+    <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">รู้จักกับ 	</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">GlusterFS 	</span></font></font></p>
+    <ul>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การทำงานของ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">GlusterFS 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ในรูปแบบต่าง 		ๆ </span></font></font></p>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">องค์ประกอบของเครื่องในระบบ 		</span></font></font></p>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Workshop 		8 :  </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การติดตั้งและใช้งาน 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">GlusterFS 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">แบบ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Replication 		(3 </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">เครื่อง</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">)</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การรักษาความปลอดภัยของระบบ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">(100 		min) </span></font></font></p>
+        <p class="ctl">&nbsp;</p>
+        </li>
+    </ul>
+    </li>
+</ul>
+<p class="ctl"><span lang="th-TH"><strong><font face="TH Sarabun New"><font size="4" style="font-size: 16pt">วันที่ </font></font></strong></span><strong><span lang="en-US"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt">3</font></font></span></strong><font face="TH Sarabun New"><font size="4" style="font-size: 16pt">
+</font></font><span lang="th-TH"><strong><font face="TH Sarabun New"><font size="4" style="font-size: 16pt">เช้า</font></font></strong></span></p>
+<ul>
+    <li>
+    <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">รู้จักกับ 	</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Memcache 	</span></font></font></p>
+    <ul>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Workshop 		9 : </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การใช้งาน 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Memcache 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ในการจัดการ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">session 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ภายในคลัสเตอร์</span></font></font></p>
+        </li>
+    </ul>
+    </li>
+    <li>
+    <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">แนะนำ 	</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Ganglia 	</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ระบบ 	</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Web 	Monitoring tools </span></font></font></p>
+    <ul>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Workshop 		10 : </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ติดตั้งระบบ 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">Web 		Monitoring </span></font></font></p>
+        </li>
+    </ul>
+    </li>
+    <li>
+    <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การปรับแต่งประสิทธิภาพ</span></font></font></p>
+    <ul>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การทดลองยิงโหลดด้วย 		</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">awk</span></font></font></p>
+        </li>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">วางแผนการรับโหลด</span></font></font></p>
+        </li>
+    </ul>
+    </li>
+</ul>
+<p class="ctl"><span lang="th-TH"><strong><font face="TH Sarabun New"><font size="4" style="font-size: 16pt">บ่าย</font></font></strong></span></p>
+<ul>
+    <li>
+    <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การปรับแต่งประสิทธิภาพ</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">(</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">ต่อ</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">)</span></font></font></p>
+    <ul>
+        <li>
+        <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การปรับแต่ระบบปฏิบัติการเพื่อรองรับภาระงานที่เพิ่มขึ้น</span></font></font></p>
+        </li>
+    </ul>
+    </li>
+    <li>
+    <p class="ctl"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">การใช้งาน 	</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">MySQLTuner 	</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">เพื่อปรับแต่งประสิทธิภาพให้ 	</span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">MySQL</span></font></font></p>
+    </li>
+    <li>
+    <p class="ctl" style="text-align: left;"><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="th-TH">แนะนำระบบฐานข้อมูลแบบกระจายในแบบต่าง 	ๆ เช่น </span></font></font><font face="TH Sarabun New"><font size="4" style="font-size: 16pt"><span lang="en-US">MarieDB 	Galera Cluster, MySQL Cluster </span></font></font></p>
+    </li>
+</ul>
+</h1>
+  </form>
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="pt-4 my-md-5 pt-md-5 border-top container">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img class="mb-2" src="clusterkit_logo.png" alt="" width="80" height="40">
+          <small class="d-block mb-3 text-muted">Copyright	© 2007 - 2019 Cluster Kit Co.,Ltd. All rights reserved.</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Contact</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Facebook</a></li>
+            <li><a class="text-muted" href="#">E-mail : info@clusterkit.co.th</a></li>
+            <li><a class="text-muted" href="#">Tel. 02-881-3800</a></li>
+            <li><a class="text-muted" href="#">Fax. 02-424-7603</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Careers</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">System Engineer</a></li>
+            <li><a class="text-muted" href="#">Accountant Oficer</a></li>
+            <li><a class="text-muted" href="#">Internship Program</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Corporate Identity</a></li>
+            <li><a class="text-muted" href="#">About ClusterKit</a></li>
+            <li><a class="text-muted" href="#">Map</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
